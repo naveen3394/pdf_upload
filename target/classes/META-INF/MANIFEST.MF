@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: pdf_file_upload
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: sunbeam
+Implementation-Vendor-Id: com.app
+Build-Jdk: 1.8.0_222
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/pdf_file_upload
+Created-By: Maven Integration for Eclipse
+
