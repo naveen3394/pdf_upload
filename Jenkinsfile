@@ -30,10 +30,9 @@ maven "Maven 3.6.3"}
         }
         stage ('run') {
             steps {
-            
                sshagent(['tomcat']) {
-   sh 'scp -o StrictHostKeyChecking=no target/*.jar ec2-user@172.31.43.186:~/'
-}
+ 		  sh 'scp -o StrictHostKeyChecking=no target/*.jar ec2-user@172.31.43.186:~/'
+		}
                  
                //  sh ' java -jar target/*.jar'/
         
