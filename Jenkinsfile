@@ -31,7 +31,7 @@ maven "Maven 3.6.3"}
         stage ('run') {
             steps {
                sshagent(['tomcat']) {
- 		  sh 'scp -i target/*.jar ubuntu@172.31.43.186:~/opt/apache-tomcat-8.5.35/webapps/'
+ 		  sh 'scp -o target/*.jar ubuntu@172.31.43.186:~/opt/apache-tomcat-8.5.35/webapps/'
 		}
                  
                //  sh ' java -jar target/*.jar'/
