@@ -72,8 +72,6 @@ public ResponseEntity<String> test()
 	//Integer id1=Integer.getInteger(id);
 	//List<Pdffile> listAllBooks=udao.getallbooks();
 	String str =new String("server is up and running");
-	DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-	Date date = new Date();
 	LocalDateTime today = LocalDateTime.now();
 		return new ResponseEntity<String>("server is up and running     "+today,HttpStatus.OK);
 }
