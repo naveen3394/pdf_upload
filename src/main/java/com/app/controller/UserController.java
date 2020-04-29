@@ -73,7 +73,7 @@ public ResponseEntity<String> test()
 	//List<Pdffile> listAllBooks=udao.getallbooks();
 	String str =new String("server is up and running");
 	LocalDateTime today = LocalDateTime.now();
-		return new ResponseEntity<String>("server is up and running     "+today,HttpStatus.OK);
+		return new ResponseEntity<String>("server is up and running     ",HttpStatus.OK);
 }
 
 
