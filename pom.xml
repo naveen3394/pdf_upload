@@ -15,12 +15,12 @@
 	<name>pdf_file_upload</name>
 	<description>file upload project</description>
         
-	<packaging>war</packaging>
+<!-- 	<packaging>war</packaging>
 	<build>
 		<artifactId>pdf_upload_artifact</artifactId>
    		 <finalName>${artifactId}</finalName>
     
-	</build>
+	</build> -->
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
