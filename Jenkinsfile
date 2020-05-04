@@ -31,7 +31,7 @@ maven "Maven 3.6.3"}
         stage ('run') {
             steps {
                sshagent(['tomcat']) {
- 		  sh 'scp -o StrictHostKeyChecking=no target/*.jar ubuntu@172.31.43.186:~/opt/apache-tomcat-8.5.35/webapps/'
+ 		  sh 'scp -o StrictHostKeyChecking=no target/*.jar ubuntu@13.233.155.207:~/'
 		   //        sh 'ssh -o StrictHostKeyChecking=no -l cloudbees 192.168.1.106 uname -a'
 
 		}
