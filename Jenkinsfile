@@ -33,8 +33,7 @@ maven "Maven 3.6.3"}
                sshagent(['tomcat']) {
  		 // sh 'scp -o StrictHostKeyChecking=no target/*.jar ubuntu@13.233.155.207:~/'
 		                sh 'scp -v -o StrictHostKeyChecking=no  -i /home/sunbeam/Downloads/gmk_key_pair.pem target/*.jar ubuntu@35.154.183.171:/home/ubuntu'
-                              //   sh "sshpass -p password ssh -o StrictHostKeyChecking=no -i  /home/sunbeam/Downloads/gmk_key_pair.pem ubuntu@35.154.183.171 '/home/ubuntu/start.sh'"
-sh "ssh -v -o StrictHostKeyChecking=no  -i /home/sunbeam/Downloads/gmk_key_pair.pem ubuntu@35.154.183.171 './start.sh'"
+//sh "ssh -v -o StrictHostKeyChecking=no  -i /home/sunbeam/Downloads/gmk_key_pair.pem ubuntu@35.154.183.171 './start.sh'"
 		       //        sh 'ssh -o StrictHostKeyChecking=no -l cloudbees 192.168.1.106 uname -a'
 
 		}
