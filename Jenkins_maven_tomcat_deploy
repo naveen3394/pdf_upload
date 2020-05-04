@@ -28,10 +28,10 @@ pipeline {
               sh "mvn clean install"
             }
         }
-        stage ('deploy jar on tomcat') {
-            steps {
-           		  sh 'nohup java -jar target/*.jar & '
-            }
-        }
+      //  stage ('deploy jar on tomcat') {
+        //    steps {
+          // 		  sh 'nohup java -jar target/*.jar & '
+            //}
+        //}
         }
     }
